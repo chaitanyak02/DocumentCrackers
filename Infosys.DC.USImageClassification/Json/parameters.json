@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "batchAccount": {
+            "value": "ssasubbatchuat"
+        },
+        "vNET": {
+            "value": "/subscriptions/3dc3f829-f5db-4014-b75f-1718ffb337b2/resourceGroups/zne-usw0-n-02-net-rsg/providers/Microsoft.Network/virtualNetworks/zne-usw0-n-02-net-idm-00-net"
+        },
+        "subNET": {
+            "value": "/subnets/ZNE-USW0-N-02-NET-IDM-00-SSA-UAT-SUB"
+        },
+        "location": {
+            "value": "northeurope"
+        },
+        "poolname": {
+            "value": "/ssasubnetpool11"
+        },
+        "vmSize": {
+            "value": "STANDARD_D14_V2"
+        },
+        "targetNodes": {
+            "value": 2
+        },
+        "maxTasks": {
+            "value": 1
+        },
+        "sku": {
+            "value": "2016-Datacenter"
+        },
+        "nodeAgentSkuId": {
+            "value": "batch.node.windows amd64"
+        },
+        "resizeTimeout": {
+            "value": "PT15M"
+        }
+    }
+}
