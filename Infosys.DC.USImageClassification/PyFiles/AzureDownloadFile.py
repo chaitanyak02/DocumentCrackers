@@ -23,8 +23,8 @@ def DownloadFiles(DiskPath):
                         
 
             # Create the BlockBlockService and Blob service for the storage account
-            block_blob_service_Managed = BlockBlobService(account_name='welldatastg',
-                                                            account_key='BN19h+Zlfw4GqDozASJEUsir4dAf0n7lrIOhU708uw6eBXnoiSw0JoWF51x/cAOlEzSVGrk4Yn4L9T0l88FyGw==')
+            block_blob_service_Managed = BlockBlobService(account_name='',
+                                                            account_key='')
             print('Connected to Managed Storage Container')
             print('DiskPath'+DiskPath)
             if not os.path.exists(os.getcwd()+'/'+DiskPath):

@@ -9,13 +9,13 @@ namespace Infosys.DC.Preprocessing
         public const string TableStorageConfigurationSecret = "TableStorageConfigurationSecret";
         public const string ServiceBusDataQueueName = "ServiceBusDataQueueName";
         public const string ProgramInitiatedStatus= "Initiated";
-        public const string SubscriptionId = "c69821a7-934f-4a82-8281-62b27247551f";
+        public const string SubscriptionId = "";
         public const string AzureBatchClientID = "Initiated";
         public const string AzureBatchClientSecret = "Initiated";
         public const string AzureBatchDeploymentName = "ConvergeDeployment";
         public const string AzureBatchTemplate = "\\Json\\template.json";
         public const string AzureBatchParameter = "\\Json\\parameters.json";
-        public const string DirectoryId = "03363749-29d6-4915-933a-8a647804605d";
+        public const string DirectoryId = "";
         public const string AzureBatchResizeTimeout = "30";
         public const string AzureBatchAgentSkuId = "Initiated";
         public const string AzureBatchSku = "Initiated";

@@ -237,18 +237,18 @@ namespace Infosys.DC.Preprocessing
     }
     public static class BatchOperations
     {
-        private const string BatchAccountName = "convergebatchaccount";
-        //private const string BatchAccountName = "ssabatchidmuat";
-        //private const string BatchAccountUrl = "https://ssabatchidmuat.northeurope.batch.azure.com";
-        //private const string BatchAccountKey ="6jGUWn4bAzjC8ASk3Kma+OsIvLmFvICDRxyNb8DXUE9EVDTXBvL5cu4SJWYLgGca/LKhRlps/UHKWtakL0Nxmw==";
-        private const string BatchAccountKey = "xa1RLugqWfaqAQDgJfUVm3xwtfCJeq7ugj2bPZkd++NtNBb7X148VVccgaJ/nHmL4+45ISJSjrwvnpbXA25+wA==";
-        //private const string BatchAccountKey = "E5w563uaeILLtajju3usrwXtyqs2zGJo4S6wloKFh1x7z7rxLFJMDWmI0bI1zI4M7x+/m6TMqkauBrpfBr4z1Q==";
-        private const string BatchAccountUrl = "https://convergebatchaccount.australiaeast.batch.azure.com";
+        private const string BatchAccountName = "";
+        //private const string BatchAccountName = "";
+        //private const string BatchAccountUrl = "";
+        //private const string BatchAccountKey ="";
+        private const string BatchAccountKey = "";
+        //private const string BatchAccountKey = "";
+        private const string BatchAccountUrl = "";
         private static string PoolId = "Converge2020Pool";
-        private const string StorageAccountName = "welldatastg";
-        private const string StorageAccountKey = "BN19h+Zlfw4GqDozASJEUsir4dAf0n7lrIOhU708uw6eBXnoiSw0JoWF51x/cAOlEzSVGrk4Yn4L9T0l88FyGw==";
-        //private const string StorageAccountName = "stgactssabackupdev";
-        //private const string StorageAccountKey = "varXxjs0uNjUUn5XDSUlS5VhJs2A2NGHpF7PNxrEnBApl1p+tckOWiG26kJcpHyqMpRNXaowzkqL8JaO6Rr1/A==";
+        private const string StorageAccountName = "";
+        private const string StorageAccountKey = "";
+        //private const string StorageAccountName = "";
+        //private const string StorageAccountKey = "key";
 
         //public static async void TriggerAureBatch(DataUploadServiceBusProperties message)
         public static async void TriggerAureBatch()
@@ -605,12 +605,12 @@ namespace Infosys.DC.Preprocessing
 
             return jobs.FirstOrDefault();
         }
-        private const string AuthorityUri = "https://login.microsoftonline.com/03363749-29d6-4915-933a-8a647804605d";
-        private const string BatchResourceUri = "https://batch.core.windows.net/";
-        //private const string ClientId = "9d9f4fa5-a088-42d3-b3a8-c5cb1f08024e";
-        private const string ClientId = "386ff640-4d68-4b22-902f-aa768d2c4164";
-        //private const string ClientKey = "fFKfA+cRiva/APw8CGIzz0H2FWwxXxrTO+0L137Sj98=";
-        private const string ClientKey = "zdwDrU_GFuToEvS._HGVZAl_.36_5_m62d";
+        private const string AuthorityUri = "";
+        private const string BatchResourceUri = "";
+        //private const string ClientId = "";
+        private const string ClientId = "";
+        //private const string ClientKey = "";
+        private const string ClientKey = "";
         public static async Task<string> GetAuthenticationTokenAsync()
         {
             AuthenticationContext authContext = new AuthenticationContext(AuthorityUri);

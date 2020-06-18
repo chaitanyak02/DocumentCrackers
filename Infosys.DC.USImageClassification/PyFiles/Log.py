@@ -34,7 +34,7 @@ def TrackEvent(File, Event, startTime,endTime):
     
     try:
 
-        tc = TelemetryClient('c757fdac-839b-4139-87c9-09b5dc535d73')
+        tc = TelemetryClient('')
         host_name = socket.gethostname() 
         host_ip = socket.gethostbyname(host_name) 
         tc.track_event(Event, { 'Server': host_name , 'IP': host_ip ,'Event':Event,'File':File}, { 'TimeTaken': TimeDiffMinutes(startTime,endTime)})

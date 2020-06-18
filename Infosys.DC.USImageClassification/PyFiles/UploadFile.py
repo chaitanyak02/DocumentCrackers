@@ -10,8 +10,8 @@ def UploadFiles(ContainerName,FileLocation,file_name,path):
     #Uploading  the output file to Azure
    
     print('------------------------Uploading Files to '+ContainerName+'------------------------')
-    block_blob_service_Managed = BlockBlobService(account_name='welldatastg',
-                                                    account_key='BN19h+Zlfw4GqDozASJEUsir4dAf0n7lrIOhU708uw6eBXnoiSw0JoWF51x/cAOlEzSVGrk4Yn4L9T0l88FyGw==')
+    block_blob_service_Managed = BlockBlobService(account_name='',
+                                                    account_key='')
   
         
     block_blob_service_Managed.create_blob_from_path(ContainerName+"\\"+FileLocation, file_name, path)
